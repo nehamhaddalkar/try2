@@ -1,0 +1,5 @@
+rainfall=c(90,98,99,100,120,122,127,134,168,176,179,180)
+print(rainfall)
+plot(rainfall)
+rainfall.timeseries=ts(rainfall,start=c(2024,6),frequency=12)
+plot(rainfall.timeseries,main="rainfall_linechart",xlab="years",ylab="rainfall"

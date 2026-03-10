@@ -1,0 +1,5 @@
+mtcars
+summary(mtcars)
+result<-glm(formula= am~hp+wt, data=mtcars, family=binomial)
+summary(result)
+plot(result)
